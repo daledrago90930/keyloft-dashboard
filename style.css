@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2d3436;
+  background: #f8f9fa;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+.logo {
+  width: 180px;
+  margin-bottom: 1rem;
+}
+.hero {
+  background: linear-gradient(135deg, #1f2b3a, #293949);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.cta-buttons {
+  margin-top: 2rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.btn.primary {
+  background: #00cec9;
+  color: white;
+}
+.btn.secondary {
+  background: white;
+  color: #2d3436;
+  border: 1px solid #ccc;
+}
+section {
+  background: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+footer {
+  background: #2d3436;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
